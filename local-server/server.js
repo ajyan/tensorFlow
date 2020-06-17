@@ -7,7 +7,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname, '../static')));
+app.use(express.static(path.join(__dirname, '../static/')));
 
 app.listen(3001, () => {
   console.log('app listening on 3001');
