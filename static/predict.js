@@ -12,7 +12,7 @@ $('#image-selector').change(function() {
 let model;
 (async function() {
   model = await tf.loadModel(
-    'http://localhost:3001/tfjs-models/VGG16/model.json'
+    'http://18.222.190.12/tfjs-models/VGG16/model.json'
   );
   $('.progress-bar').hide();
 })();
